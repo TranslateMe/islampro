@@ -1,0 +1,135 @@
+/*
+   Arabic Localization ('D91(J))
+   QiblaFinder iOS App
+*/
+
+// MARK: - Compass View
+"aligned_with_qibla" = "E-'0M DDB(D)";
+"current_heading" = "'D'*,'G 'D-'DJ";
+"compass_ring" = "-DB) 'D(H5D)";
+"qibla_direction_indicator" = "E$41 '*,'G 'DB(D)";
+
+// MARK: - Permission View
+"location_access_required" = "J*7D( 'DH5HD %DI 'DEHB9";
+"location_permission_explanation" = "J-*', *7(JB 'DB(D) %DI EHB9C D*-/J/ '*,'G 'DB(D) 'D/BJB. J1,I *ECJF 'DH5HD %DI 'DEHB9 AJ 'D%9/'/'*.";
+"open_settings" = "A*- 'D%9/'/'*";
+"enable_location_hint" = "BE (*ECJF 'DH5HD %DI 'DEHB9 AJ 'D%9/'/'* D'3*./'E *7(JB 'DB(D)";
+
+// MARK: - GPS Error View
+"gps_signal_weak" = "%4'1) GPS 69JA)";
+"using_last_known_location" = "'3*./'E '.1 EHB9 E91HA EF";
+"no_location_available" = "D' JH,/ EHB9 E*'-. J1,I 'D*#C/ EF *ECJF ./E'* 'DEHB9.";
+"retry" = "%9'/) 'DE-'HD)";
+"tap_retry_hint" = "'6:7 D%9'/) 'DE-'HD) H7D( EHB9 ,/J/";
+"using_cached_location_from" = "'3*./'E 'DEHB9 'DE-AH8 EF %@";
+
+// Time formats
+"just_now" = "'D'F";
+"one_minute_ago" = "EF0 /BJB) H'-/)";
+"minutes_ago" = "EF0 %d /BJB)";
+"today_at_time" = "'DJHE AJ %@";
+"yesterday_at_time" = "#E3 AJ %@";
+
+// MARK: - Distance Display
+"distance_to_mecca" = "'DE3'A) %DI EC)";
+"qibla_direction" = "'*,'G 'DB(D)";
+"distance_and_direction" = "'DE3'A) H'D'*,'G %DI EC)";
+"location_unavailable" = "'DEHB9 :J1 E*'-";
+"distance_and_bearing_format" = "'DE3'A): %@ 'D'*,'G: %@";
+
+// MARK: - Accuracy Indicator
+"compass_calibration" = "E9'J1) 'D(H5D)";
+"calibration_instructions" = "-1C G'*AC (FE7 1BE 8 DE9'J1) 'D(H5D) EF #,D '*,'G B(D) /BJB.";
+"excellent" = "EE*'2";
+"fair_accuracy" = "/B) ,J/)";
+"calibrate_compass" = "E9'J1) 'D(H5D)";
+"unavailable" = ":J1 E*'-";
+"high_accuracy_calibrated" = "/B) 9'DJ) *E* 'DE9'J1)";
+"medium_accuracy_usable" = "/B) E*H37) B'(D) DD'3*./'E";
+"low_accuracy_needs_calibration" = "/B) EF.A6) *-*', %DI E9'J1)";
+"compass_unavailable" = "'D(H5D) :J1 E*'-)";
+"calibration_tap_hint" = "'6:7 E1*JF DD-5HD 9DI *9DJE'* 'DE9'J1)";
+"ok" = "EH'AB";
+
+// MARK: - Prayer Times View
+"locating" = "*-/J/ 'DEHB9...";
+"calculating_prayer_times" = "-3'( #HB'* 'D5D')...";
+"location_permission_denied" = "*E 1A6 %0F 'DEHB9";
+"islamic_date_label" = "'D*'1J. 'D%3D'EJ: %@";
+"prayer_times_list_label" = "#HB'* 'D5D')";
+"prayer_name_label" = "5D') %@";
+"prayer_passed" = "E6*";
+"next_prayer_hint" = "'D5D') 'DB'/E)";
+"current_prayer_time_hint" = "HB* 'D5D') 'D-'DJ";
+
+// MARK: - Map View
+"loading_location" = "*-EJD 'DEHB9...";
+"map_route_to_mecca" = ".1J7) *H6- 'D71JB EF EHB9C %DI EC)";
+"mecca" = "EC)";
+"map_distance_direction_label" = "'DE3'A): %@E 'D'*,'G: %@";
+
+// MARK: - Settings View
+"settings" = "'D%9/'/'*";
+"prayer_settings" = "%9/'/'* 'D5D')";
+"calculation_method" = "71JB) 'D-3'(";
+"madhab_asr" = "'DE0G( (-3'( 'D951)";
+"madhab" = "'DE0G(";
+"theme" = "'DE8G1";
+"premium_features" = "'DEJ2'* 'DEEJ2)";
+"app_theme" = "E8G1 'D*7(JB";
+"prayer_notifications" = "%49'1'* 'D5D')";
+"enable_notifications" = "*A9JD 'D%49'1'*";
+"notify_minutes_before" = "'D*F(JG B(D %d /BJB)";
+"premium_active" = "'D'4*1'C 'DEEJ2 F47";
+"upgrade_to_premium" = "'D*1BJ) %DI 'DF3.) 'DEEJ2)";
+"thank_you_premium" = "4C1'K D/9EC D*7(JB 'DB(D)!";
+"all_features_unlocked" = ",EJ9 'DEJ2'* 'DEEJ2) EA*H-)";
+"one_time_purchase" = "41'! DE1) H'-/) • H5HD E/I 'D-J')";
+"restore_purchases" = "'3*9'/) 'DE4*1J'*";
+"processing_purchase" = "E9'D,) 9EDJ) 'D41'!...";
+"purchase_error" = ".7# AJ 'D41'!";
+"unknown_error" = "-/+ .7# :J1 E91HA";
+"about" = "9F 'D*7(JB";
+"qiblafinder" = "EO-/Q/ 'DB(D)";
+"version" = "'D%5/'1 1.0.0";
+"app_description" = "'*,'G 'DB(D) 'D/BJB H#HB'* 'D5D')\nDDE3DEJF AJ ,EJ9 #F-'! 'D9'DE";
+
+// Premium features
+"feature_notifications" = "%49'1'* 'D5D')";
+"feature_themes" = "E8'G1 E.55)";
+"feature_methods" = ",EJ9 71B 'D-3'(";
+"feature_watch" = "*7(JB Apple Watch";
+"feature_widgets" = "#/H'* 'D4'4) 'D1&J3J)";
+
+// MARK: - Onboarding View
+"skip" = "*.7J";
+"get_started" = "'(/# 'D"F";
+"swipe_to_continue" = "'3-( DDE*'(9)";
+
+// Onboarding Page 1
+"onboarding_compass_title" = "'9+1 9DI 'DB(D) AH1'K";
+"onboarding_compass_description" = "(H5D) AJ 'DHB* 'DA9DJ E9 ED'-8'* E1&J) H-3J) *H6- DC 'D'*,'G 'D/BJB DDB(D) #+F'! 'D5D')";
+"onboarding_compass_feature1" = "'*,'G 'DB(D) 'D/BJB";
+"onboarding_compass_feature2" = "E$41 E-'0') #.61";
+"onboarding_compass_feature3" = "J9ED AJ ,EJ9 #F-'! 'D9'DE";
+
+// Onboarding Page 2
+"onboarding_prayer_title" = "DF *AH*C 5D') #(/'K";
+"onboarding_prayer_description" = "#HB'* 5D') /BJB) E-3H() DEHB9C ('3*./'E #3'DJ( %3D'EJ) EH+HB)";
+"onboarding_prayer_feature1" = "6 #HB'* 5D') JHEJ)";
+"onboarding_prayer_feature2" = "'D*BHJE 'DG,1J";
+"onboarding_prayer_feature3" = "9/ *F'2DJ E('41";
+
+// Onboarding Page 3
+"onboarding_location_title" = "'DEHB9 E7DH(";
+"onboarding_location_description" = "J-*', *7(JB 'DB(D) %DI EHB9C D-3'( '*,'G 'DB(D) 'D/BJB H#HB'* 'D5D') DEF7B*C";
+"onboarding_location_feature1" = "/'&E'K /BJB";
+"onboarding_location_feature2" = "J9ED (/HF %F*1F*";
+"onboarding_location_feature3" = ".5H5J*C E-*1E)";
+
+// MARK: - General
+"loading" = ",'1J 'D*-EJD";
+"error" = ".7#";
+"cancel" = "%D:'!";
+"done" = "*E";
+"save" = "-A8";

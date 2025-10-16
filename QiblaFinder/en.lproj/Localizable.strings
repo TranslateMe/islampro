@@ -1,0 +1,144 @@
+/*
+   English Localization
+   QiblaFinder iOS App
+*/
+
+// MARK: - Compass View
+"aligned_with_qibla" = "Aligned with Qibla";
+"current_heading" = "Current heading";
+"compass_ring" = "Compass ring";
+"qibla_direction_indicator" = "Qibla direction indicator";
+
+// MARK: - Permission View
+"location_access_required" = "Location Access Required";
+"location_permission_explanation" = "QiblaFinder needs your location to determine the accurate Qibla direction. Please enable location access in Settings.";
+"open_settings" = "Open Settings";
+"enable_location_hint" = "Enable location access in Settings to use QiblaFinder";
+
+// MARK: - GPS Error View
+"gps_signal_weak" = "GPS Signal Weak";
+"using_last_known_location" = "Using last known location from";
+"no_location_available" = "No location available. Please ensure Location Services are enabled.";
+"retry" = "Retry";
+"tap_retry_hint" = "Tap retry to request fresh location";
+"using_cached_location_from" = "Using cached location from %@";
+
+// Time formats
+"just_now" = "just now";
+"one_minute_ago" = "1 minute ago";
+"minutes_ago" = "%d minutes ago";
+"today_at_time" = "Today at %@";
+"yesterday_at_time" = "Yesterday at %@";
+
+// MARK: - Distance Display
+"distance_to_mecca" = "Distance to Mecca";
+"qibla_direction" = "Qibla Direction";
+"distance_and_direction" = "Distance and direction to Mecca";
+"location_unavailable" = "Location unavailable";
+"distance_and_bearing_format" = "Distance: %@, Direction: %@";
+
+// MARK: - Accuracy Indicator
+"compass_calibration" = "Compass Calibration";
+"calibration_instructions" = "Move your iPhone in a figure-8 pattern to calibrate the compass for accurate Qibla direction.";
+"excellent" = "Excellent";
+"fair_accuracy" = "Fair Accuracy";
+"calibrate_compass" = "Calibrate Compass";
+"unavailable" = "Unavailable";
+"high_accuracy_calibrated" = "High accuracy, calibrated";
+"medium_accuracy_usable" = "Medium accuracy, usable";
+"low_accuracy_needs_calibration" = "Low accuracy, needs calibration";
+"compass_unavailable" = "Compass unavailable";
+"calibration_tap_hint" = "Double tap for calibration instructions";
+"ok" = "OK";
+
+// MARK: - Prayer Times View
+"locating" = "Locating...";
+"calculating_prayer_times" = "Calculating prayer times...";
+"location_permission_denied" = "Location permission denied";
+"islamic_date_label" = "Islamic date: %@";
+"prayer_times_list_label" = "Prayer times";
+"prayer_name_label" = "%@ prayer";
+"prayer_passed" = "Passed";
+"next_prayer_hint" = "Next prayer";
+"current_prayer_time_hint" = "Current prayer time";
+
+// MARK: - Map View
+"loading_location" = "Loading location...";
+"map_route_to_mecca" = "Map showing route from your location to Mecca";
+"mecca" = "Mecca";
+"map_distance_direction_label" = "Distance: %@, Direction: %@";
+
+// MARK: - Settings View
+"settings" = "Settings";
+"prayer_settings" = "Prayer Settings";
+"calculation_method" = "Calculation Method";
+"madhab_asr" = "Madhab (Asr Calculation)";
+"madhab" = "Madhab";
+"theme" = "Theme";
+"premium_features" = "Premium Features";
+"app_theme" = "App Theme";
+"prayer_notifications" = "Prayer Notifications";
+"enable_notifications" = "Enable Notifications";
+"notify_minutes_before" = "Notify %d minutes before";
+"premium_active" = "Premium Active";
+"upgrade_to_premium" = "Upgrade to Premium";
+"thank_you_premium" = "Thank you for supporting QiblaFinder!";
+"all_features_unlocked" = "All premium features unlocked";
+"one_time_purchase" = "One-time purchase • Lifetime access";
+"restore_purchases" = "Restore Purchases";
+"processing_purchase" = "Processing purchase...";
+"purchase_error" = "Purchase Error";
+"unknown_error" = "An unknown error occurred";
+"about" = "About";
+"qiblafinder" = "QiblaFinder";
+"version" = "Version 1.0.0";
+"app_description" = "Accurate Qibla direction and prayer times\nfor Muslims worldwide";
+
+// Premium features
+"feature_notifications" = "Prayer notifications";
+"feature_themes" = "Custom themes";
+"feature_methods" = "All calculation methods";
+"feature_watch" = "Apple Watch app";
+"feature_widgets" = "Home screen widgets";
+
+// MARK: - Onboarding View
+"skip" = "Skip";
+"get_started" = "Get Started";
+"swipe_to_continue" = "Swipe to continue";
+
+// Onboarding Page 1
+"onboarding_compass_title" = "Find Qibla Instantly";
+"onboarding_compass_description" = "Real-time compass with visual and haptic feedback shows you the exact direction to face during prayer";
+"onboarding_compass_feature1" = "Accurate Qibla direction";
+"onboarding_compass_feature2" = "Green alignment indicator";
+"onboarding_compass_feature3" = "Works worldwide";
+
+// Onboarding Page 2
+"onboarding_prayer_title" = "Never Miss Prayer";
+"onboarding_prayer_description" = "Accurate prayer times calculated for your location using trusted Islamic methods";
+"onboarding_prayer_feature1" = "6 daily prayer times";
+"onboarding_prayer_feature2" = "Hijri calendar";
+"onboarding_prayer_feature3" = "Live countdowns";
+
+// Onboarding Page 3
+"onboarding_location_title" = "Location Required";
+"onboarding_location_description" = "QiblaFinder needs your location to calculate accurate Qibla direction and prayer times for your area";
+"onboarding_location_feature1" = "Always accurate";
+"onboarding_location_feature2" = "Works offline";
+"onboarding_location_feature3" = "Privacy respected";
+
+// MARK: - Language Settings
+"language" = "Language";
+"arabic_instructions_title" = "To use Arabic:";
+"arabic_instructions" = "Go to iPhone Settings → General → Language & Region → iPhone Language → العربية (Arabic). The app will restart in Arabic.";
+
+// MARK: - Notifications
+"prayer_time_notification_title" = "Prayer Time";
+"prayer_time_notification_body" = "Time for %@ prayer";
+
+// MARK: - General
+"loading" = "Loading";
+"error" = "Error";
+"cancel" = "Cancel";
+"done" = "Done";
+"save" = "Save";

@@ -1,0 +1,148 @@
+/*
+   Arabic Localization
+   QiblaFinder iOS App
+*/
+
+// MARK: - Compass View
+"aligned_with_qibla" = "محاذاة القبلة";
+"current_heading" = "الاتجاه الحالي";
+"compass_ring" = "حلقة البوصلة";
+"qibla_direction_indicator" = "مؤشر اتجاه القبلة";
+
+// MARK: - Permission View
+"location_access_required" = "يتطلب الوصول إلى الموقع";
+"location_permission_explanation" = "يحتاج تطبيق القبلة إلى موقعك لتحديد اتجاه القبلة الدقيق. يرجى تمكين الوصول إلى الموقع في الإعدادات.";
+"open_settings" = "فتح الإعدادات";
+"enable_location_hint" = "قم بتمكين الوصول إلى الموقع في الإعدادات لاستخدام تطبيق القبلة";
+
+// MARK: - GPS Error View
+"gps_signal_weak" = "إشارة GPS ضعيفة";
+"using_last_known_location" = "استخدام آخر موقع معروف من";
+"no_location_available" = "لا يوجد موقع متاح. يرجى التأكد من تمكين خدمات الموقع.";
+"retry" = "إعادة المحاولة";
+"tap_retry_hint" = "اضغط لإعادة المحاولة وطلب موقع جديد";
+"using_cached_location_from" = "استخدام الموقع المحفوظ من %@";
+
+// Time formats
+"just_now" = "الآن";
+"one_minute_ago" = "منذ دقيقة واحدة";
+"minutes_ago" = "منذ %d دقيقة";
+"today_at_time" = "اليوم في %@";
+"yesterday_at_time" = "أمس في %@";
+
+// MARK: - Distance Display
+"distance_to_mecca" = "المسافة إلى مكة";
+"qibla_direction" = "اتجاه القبلة";
+"distance_and_direction" = "المسافة والاتجاه إلى مكة";
+"location_unavailable" = "الموقع غير متاح";
+"distance_and_bearing_format" = "المسافة: %@، الاتجاه: %@";
+
+// MARK: - Accuracy Indicator
+"compass_calibration" = "معايرة البوصلة";
+"calibration_instructions" = "حرك هاتفك بنمط رقم 8 لمعايرة البوصلة من أجل اتجاه قبلة دقيق.";
+"excellent" = "ممتاز";
+"fair_accuracy" = "دقة جيدة";
+"calibrate_compass" = "معايرة البوصلة";
+"unavailable" = "غير متاح";
+"high_accuracy_calibrated" = "دقة عالية، تمت المعايرة";
+"medium_accuracy_usable" = "دقة متوسطة، قابلة للاستخدام";
+"low_accuracy_needs_calibration" = "دقة منخفضة، تحتاج إلى معايرة";
+"compass_unavailable" = "البوصلة غير متاحة";
+"calibration_tap_hint" = "اضغط مرتين للحصول على تعليمات المعايرة";
+"ok" = "موافق";
+
+// MARK: - Prayer Times View
+"locating" = "تحديد الموقع...";
+"calculating_prayer_times" = "حساب أوقات الصلاة...";
+"location_permission_denied" = "تم رفض إذن الموقع";
+"islamic_date_label" = "التاريخ الإسلامي: %@";
+"prayer_times_list_label" = "أوقات الصلاة";
+"prayer_name_label" = "صلاة %@";
+"prayer_passed" = "مضت";
+"next_prayer_hint" = "الصلاة القادمة";
+"current_prayer_time_hint" = "وقت الصلاة الحالي";
+"Passed" = "مضت";
+"Now" = "الآن";
+"in %dh %dm" = "في %dس %dد";
+"in %dm" = "في %dد";
+
+// MARK: - Map View
+"loading_location" = "تحميل الموقع...";
+"map_route_to_mecca" = "خريطة توضح الطريق من موقعك إلى مكة";
+"mecca" = "مكة";
+"map_distance_direction_label" = "المسافة: %@، الاتجاه: %@";
+
+// MARK: - Settings View
+"settings" = "الإعدادات";
+"prayer_settings" = "إعدادات الصلاة";
+"calculation_method" = "طريقة الحساب";
+"madhab_asr" = "المذهب (حساب العصر)";
+"madhab" = "المذهب";
+"theme" = "المظهر";
+"premium_features" = "الميزات المميزة";
+"app_theme" = "مظهر التطبيق";
+"prayer_notifications" = "إشعارات الصلاة";
+"enable_notifications" = "تفعيل الإشعارات";
+"notify_minutes_before" = "التنبيه قبل %d دقيقة";
+"premium_active" = "الاشتراك المميز نشط";
+"upgrade_to_premium" = "الترقية إلى النسخة المميزة";
+"thank_you_premium" = "شكراً لدعمك لتطبيق القبلة!";
+"all_features_unlocked" = "جميع الميزات المميزة مفتوحة";
+"one_time_purchase" = "شراء لمرة واحدة • وصول مدى الحياة";
+"restore_purchases" = "استعادة المشتريات";
+"processing_purchase" = "معالجة عملية الشراء...";
+"purchase_error" = "خطأ في الشراء";
+"unknown_error" = "حدث خطأ غير معروف";
+"about" = "عن التطبيق";
+"qiblafinder" = "محدّد القبلة";
+"version" = "الإصدار 1.0.0";
+"app_description" = "اتجاه القبلة الدقيق وأوقات الصلاة\nللمسلمين في جميع أنحاء العالم";
+
+// Premium features
+"feature_notifications" = "إشعارات الصلاة";
+"feature_themes" = "مظاهر مخصصة";
+"feature_methods" = "جميع طرق الحساب";
+"feature_watch" = "تطبيق Apple Watch";
+"feature_widgets" = "أدوات الشاشة الرئيسية";
+
+// MARK: - Onboarding View
+"skip" = "تخطي";
+"get_started" = "ابدأ الآن";
+"swipe_to_continue" = "اسحب للمتابعة";
+
+// Onboarding Page 1
+"onboarding_compass_title" = "اعثر على القبلة فوراً";
+"onboarding_compass_description" = "بوصلة في الوقت الفعلي مع ملاحظات مرئية وحسية توضح لك الاتجاه الدقيق للقبلة أثناء الصلاة";
+"onboarding_compass_feature1" = "اتجاه القبلة الدقيق";
+"onboarding_compass_feature2" = "مؤشر محاذاة أخضر";
+"onboarding_compass_feature3" = "يعمل في جميع أنحاء العالم";
+
+// Onboarding Page 2
+"onboarding_prayer_title" = "لن تفوتك صلاة أبداً";
+"onboarding_prayer_description" = "أوقات صلاة دقيقة محسوبة لموقعك باستخدام أساليب إسلامية موثوقة";
+"onboarding_prayer_feature1" = "6 أوقات صلاة يومية";
+"onboarding_prayer_feature2" = "التقويم الهجري";
+"onboarding_prayer_feature3" = "عد تنازلي مباشر";
+
+// Onboarding Page 3
+"onboarding_location_title" = "الموقع مطلوب";
+"onboarding_location_description" = "يحتاج تطبيق القبلة إلى موقعك لحساب اتجاه القبلة الدقيق وأوقات الصلاة لمنطقتك";
+"onboarding_location_feature1" = "دائماً دقيق";
+"onboarding_location_feature2" = "يعمل بدون إنترنت";
+"onboarding_location_feature3" = "خصوصيتك محترمة";
+
+// MARK: - Language Settings
+"language" = "اللغة";
+"arabic_instructions_title" = "للاستخدام بالعربية:";
+"arabic_instructions" = "اذهب إلى إعدادات الآيفون ← عام ← اللغة والمنطقة ← لغة الآيفون ← العربية. سيعيد تشغيل التطبيق باللغة العربية.";
+
+// MARK: - Notifications
+"prayer_time_notification_title" = "وقت الصلاة";
+"prayer_time_notification_body" = "وقت صلاة %@";
+
+// MARK: - General
+"loading" = "جاري التحميل";
+"error" = "خطأ";
+"cancel" = "إلغاء";
+"done" = "تم";
+"save" = "حفظ";

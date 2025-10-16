@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784AFC662E9CD4560071604C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784AFC632E9CD4560071604C /* Assets.xcassets */; };
+		784AFC672E9CD4560071604C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 784AFC642E9CD4560071604C /* Info.plist */; };
+		784AFC682E9CD4560071604C /* CompassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC4C2E9CD4560071604C /* CompassViewModel.swift */; };
+		784AFC692E9CD4560071604C /* PrayerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC5C2E9CD4560071604C /* PrayerRowView.swift */; };
+		784AFC6A2E9CD4560071604C /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC462E9CD4560071604C /* StoreManager.swift */; };
+		784AFC6B2E9CD4560071604C /* PrayerTimeDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC3F2E9CD4560071604C /* PrayerTimeDisplay.swift */; };
+		784AFC6C2E9CD4560071604C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC492E9CD4560071604C /* Extensions.swift */; };
+		784AFC6D2E9CD4560071604C /* PrayerTimesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC4D2E9CD4560071604C /* PrayerTimesViewModel.swift */; };
+		784AFC6E2E9CD4560071604C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC482E9CD4560071604C /* Constants.swift */; };
+		784AFC6F2E9CD4560071604C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC432E9CD4560071604C /* LocationManager.swift */; };
+		784AFC702E9CD4560071604C /* CompassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC422E9CD4560071604C /* CompassManager.swift */; };
+		784AFC712E9CD4560071604C /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC5D2E9CD4560071604C /* PrayerTimesView.swift */; };
+		784AFC722E9CD4560071604C /* CardinalMarkersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC512E9CD4560071604C /* CardinalMarkersView.swift */; };
+		784AFC732E9CD4560071604C /* PrayerTimesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC442E9CD4560071604C /* PrayerTimesCalculator.swift */; };
+		784AFC742E9CD4560071604C /* KaabaIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC562E9CD4560071604C /* KaabaIconView.swift */; };
+		784AFC752E9CD4560071604C /* DistanceDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC552E9CD4560071604C /* DistanceDisplayView.swift */; };
+		784AFC762E9CD4560071604C /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC4E2E9CD4560071604C /* SettingsViewModel.swift */; };
+		784AFC772E9CD4560071604C /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC4A2E9CD4560071604C /* HapticManager.swift */; };
+		784AFC782E9CD4560071604C /* DegreeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC542E9CD4560071604C /* DegreeIndicatorView.swift */; };
+		784AFC792E9CD4560071604C /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC532E9CD4560071604C /* CompassView.swift */; };
+		784AFC7A2E9CD4560071604C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC5A2E9CD4560071604C /* OnboardingView.swift */; };
+		784AFC7B2E9CD4560071604C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC582E9CD4560071604C /* MapView.swift */; };
+		784AFC7C2E9CD4560071604C /* AccuracyIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC502E9CD4560071604C /* AccuracyIndicatorView.swift */; };
+		784AFC7D2E9CD4560071604C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC5F2E9CD4560071604C /* SettingsView.swift */; };
+		784AFC7E2E9CD4560071604C /* CompassRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC522E9CD4560071604C /* CompassRingView.swift */; };
+		784AFC7F2E9CD4560071604C /* QiblaCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AFC452E9CD4560071604C /* QiblaCalculator.swift */; };
+		784AFC822E9CD4CA0071604C /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = 784AFC812E9CD4CA0071604C /* Adhan */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7816709B2E9CD3B00012CFF5 /* QiblaFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiblaFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784AFC3F2E9CD4560071604C /* PrayerTimeDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeDisplay.swift; sourceTree = "<group>"; };
+		784AFC422E9CD4560071604C /* CompassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassManager.swift; sourceTree = "<group>"; };
+		784AFC432E9CD4560071604C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		784AFC442E9CD4560071604C /* PrayerTimesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesCalculator.swift; sourceTree = "<group>"; };
+		784AFC452E9CD4560071604C /* QiblaCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaCalculator.swift; sourceTree = "<group>"; };
+		784AFC462E9CD4560071604C /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		784AFC482E9CD4560071604C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		784AFC492E9CD4560071604C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		784AFC4A2E9CD4560071604C /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		784AFC4C2E9CD4560071604C /* CompassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewModel.swift; sourceTree = "<group>"; };
+		784AFC4D2E9CD4560071604C /* PrayerTimesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesViewModel.swift; sourceTree = "<group>"; };
+		784AFC4E2E9CD4560071604C /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		784AFC502E9CD4560071604C /* AccuracyIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuracyIndicatorView.swift; sourceTree = "<group>"; };
+		784AFC512E9CD4560071604C /* CardinalMarkersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardinalMarkersView.swift; sourceTree = "<group>"; };
+		784AFC522E9CD4560071604C /* CompassRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassRingView.swift; sourceTree = "<group>"; };
+		784AFC532E9CD4560071604C /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		784AFC542E9CD4560071604C /* DegreeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeIndicatorView.swift; sourceTree = "<group>"; };
+		784AFC552E9CD4560071604C /* DistanceDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDisplayView.swift; sourceTree = "<group>"; };
+		784AFC562E9CD4560071604C /* KaabaIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaabaIconView.swift; sourceTree = "<group>"; };
+		784AFC582E9CD4560071604C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		784AFC5A2E9CD4560071604C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		784AFC5C2E9CD4560071604C /* PrayerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerRowView.swift; sourceTree = "<group>"; };
+		784AFC5D2E9CD4560071604C /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		784AFC5F2E9CD4560071604C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		784AFC632E9CD4560071604C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784AFC642E9CD4560071604C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7816709D2E9CD3B00012CFF5 /* QiblaFinder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = QiblaFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		781670982E9CD3B00012CFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784AFC822E9CD4CA0071604C /* Adhan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781670922E9CD3B00012CFF5 = {
+			isa = PBXGroup;
+			children = (
+				784AFC652E9CD4560071604C /* QiblaFinder */,
+				7816709D2E9CD3B00012CFF5 /* QiblaFinder */,
+				7816709C2E9CD3B00012CFF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7816709C2E9CD3B00012CFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7816709B2E9CD3B00012CFF5 /* QiblaFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784AFC402E9CD4560071604C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC3F2E9CD4560071604C /* PrayerTimeDisplay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		784AFC412E9CD4560071604C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		784AFC472E9CD4560071604C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC422E9CD4560071604C /* CompassManager.swift */,
+				784AFC432E9CD4560071604C /* LocationManager.swift */,
+				784AFC442E9CD4560071604C /* PrayerTimesCalculator.swift */,
+				784AFC452E9CD4560071604C /* QiblaCalculator.swift */,
+				784AFC462E9CD4560071604C /* StoreManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		784AFC4B2E9CD4560071604C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC482E9CD4560071604C /* Constants.swift */,
+				784AFC492E9CD4560071604C /* Extensions.swift */,
+				784AFC4A2E9CD4560071604C /* HapticManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		784AFC4F2E9CD4560071604C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC4C2E9CD4560071604C /* CompassViewModel.swift */,
+				784AFC4D2E9CD4560071604C /* PrayerTimesViewModel.swift */,
+				784AFC4E2E9CD4560071604C /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		784AFC572E9CD4560071604C /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC502E9CD4560071604C /* AccuracyIndicatorView.swift */,
+				784AFC512E9CD4560071604C /* CardinalMarkersView.swift */,
+				784AFC522E9CD4560071604C /* CompassRingView.swift */,
+				784AFC532E9CD4560071604C /* CompassView.swift */,
+				784AFC542E9CD4560071604C /* DegreeIndicatorView.swift */,
+				784AFC552E9CD4560071604C /* DistanceDisplayView.swift */,
+				784AFC562E9CD4560071604C /* KaabaIconView.swift */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		784AFC592E9CD4560071604C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC582E9CD4560071604C /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		784AFC5B2E9CD4560071604C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC5A2E9CD4560071604C /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		784AFC5E2E9CD4560071604C /* PrayerTimes */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC5C2E9CD4560071604C /* PrayerRowView.swift */,
+				784AFC5D2E9CD4560071604C /* PrayerTimesView.swift */,
+			);
+			path = PrayerTimes;
+			sourceTree = "<group>";
+		};
+		784AFC602E9CD4560071604C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC5F2E9CD4560071604C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		784AFC612E9CD4560071604C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		784AFC622E9CD4560071604C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC572E9CD4560071604C /* Compass */,
+				784AFC592E9CD4560071604C /* Map */,
+				784AFC5B2E9CD4560071604C /* Onboarding */,
+				784AFC5E2E9CD4560071604C /* PrayerTimes */,
+				784AFC602E9CD4560071604C /* Settings */,
+				784AFC612E9CD4560071604C /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		784AFC652E9CD4560071604C /* QiblaFinder */ = {
+			isa = PBXGroup;
+			children = (
+				784AFC402E9CD4560071604C /* Models */,
+				784AFC412E9CD4560071604C /* Resources */,
+				784AFC472E9CD4560071604C /* Services */,
+				784AFC4B2E9CD4560071604C /* Utilities */,
+				784AFC4F2E9CD4560071604C /* ViewModels */,
+				784AFC622E9CD4560071604C /* Views */,
+				784AFC632E9CD4560071604C /* Assets.xcassets */,
+				784AFC642E9CD4560071604C /* Info.plist */,
+			);
+			path = QiblaFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7816709A2E9CD3B00012CFF5 /* QiblaFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781670A62E9CD3B10012CFF5 /* Build configuration list for PBXNativeTarget "QiblaFinder" */;
+			buildPhases = (
+				781670972E9CD3B00012CFF5 /* Sources */,
+				781670982E9CD3B00012CFF5 /* Frameworks */,
+				781670992E9CD3B00012CFF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7816709D2E9CD3B00012CFF5 /* QiblaFinder */,
+			);
+			name = QiblaFinder;
+			packageProductDependencies = (
+				784AFC812E9CD4CA0071604C /* Adhan */,
+			);
+			productName = QiblaFinder;
+			productReference = 7816709B2E9CD3B00012CFF5 /* QiblaFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		781670932E9CD3B00012CFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					7816709A2E9CD3B00012CFF5 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 781670962E9CD3B00012CFF5 /* Build configuration list for PBXProject "QiblaFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 781670922E9CD3B00012CFF5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				784AFC802E9CD4C90071604C /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7816709C2E9CD3B00012CFF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7816709A2E9CD3B00012CFF5 /* QiblaFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781670992E9CD3B00012CFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784AFC662E9CD4560071604C /* Assets.xcassets in Resources */,
+				784AFC672E9CD4560071604C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781670972E9CD3B00012CFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784AFC682E9CD4560071604C /* CompassViewModel.swift in Sources */,
+				784AFC692E9CD4560071604C /* PrayerRowView.swift in Sources */,
+				784AFC6A2E9CD4560071604C /* StoreManager.swift in Sources */,
+				784AFC6B2E9CD4560071604C /* PrayerTimeDisplay.swift in Sources */,
+				784AFC6C2E9CD4560071604C /* Extensions.swift in Sources */,
+				784AFC6D2E9CD4560071604C /* PrayerTimesViewModel.swift in Sources */,
+				784AFC6E2E9CD4560071604C /* Constants.swift in Sources */,
+				784AFC6F2E9CD4560071604C /* LocationManager.swift in Sources */,
+				784AFC702E9CD4560071604C /* CompassManager.swift in Sources */,
+				784AFC712E9CD4560071604C /* PrayerTimesView.swift in Sources */,
+				784AFC722E9CD4560071604C /* CardinalMarkersView.swift in Sources */,
+				784AFC732E9CD4560071604C /* PrayerTimesCalculator.swift in Sources */,
+				784AFC742E9CD4560071604C /* KaabaIconView.swift in Sources */,
+				784AFC752E9CD4560071604C /* DistanceDisplayView.swift in Sources */,
+				784AFC762E9CD4560071604C /* SettingsViewModel.swift in Sources */,
+				784AFC772E9CD4560071604C /* HapticManager.swift in Sources */,
+				784AFC782E9CD4560071604C /* DegreeIndicatorView.swift in Sources */,
+				784AFC792E9CD4560071604C /* CompassView.swift in Sources */,
+				784AFC7A2E9CD4560071604C /* OnboardingView.swift in Sources */,
+				784AFC7B2E9CD4560071604C /* MapView.swift in Sources */,
+				784AFC7C2E9CD4560071604C /* AccuracyIndicatorView.swift in Sources */,
+				784AFC7D2E9CD4560071604C /* SettingsView.swift in Sources */,
+				784AFC7E2E9CD4560071604C /* CompassRingView.swift in Sources */,
+				784AFC7F2E9CD4560071604C /* QiblaCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		781670A42E9CD3B10012CFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7BQBG7NR3N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		781670A52E9CD3B10012CFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7BQBG7NR3N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		781670A72E9CD3B10012CFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQBG7NR3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Guzenko.QiblaFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		781670A82E9CD3B10012CFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BQBG7NR3N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Guzenko.QiblaFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		781670962E9CD3B00012CFF5 /* Build configuration list for PBXProject "QiblaFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781670A42E9CD3B10012CFF5 /* Debug */,
+				781670A52E9CD3B10012CFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781670A62E9CD3B10012CFF5 /* Build configuration list for PBXNativeTarget "QiblaFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781670A72E9CD3B10012CFF5 /* Debug */,
+				781670A82E9CD3B10012CFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		784AFC802E9CD4C90071604C /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		784AFC812E9CD4CA0071604C /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 784AFC802E9CD4C90071604C /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 781670932E9CD3B00012CFF5 /* Project object */;
+}

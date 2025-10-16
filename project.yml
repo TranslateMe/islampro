@@ -1,0 +1,74 @@
+name: QiblaFinder
+options:
+  bundleIdPrefix: com.qiblafinder
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: en
+settings:
+  SWIFT_VERSION: "5.9"
+  PRODUCT_NAME: QiblaFinder
+packages:
+  Adhan:
+    url: https://github.com/batoulapps/adhan-swift
+    from: 1.0.0
+targets:
+  QiblaFinder:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - QiblaFinder
+    dependencies:
+      - package: Adhan
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.qiblafinder.app
+      INFOPLIST_FILE: QiblaFinder/Info.plist
+      DEVELOPMENT_TEAM: ""
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: "5.9"
+      TARGETED_DEVICE_FAMILY: "1,2"
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    info:
+      path: QiblaFinder/Info.plist
+      properties:
+        CFBundleDevelopmentRegion: $(DEVELOPMENT_LANGUAGE)
+        CFBundleExecutable: $(EXECUTABLE_NAME)
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        CFBundleInfoDictionaryVersion: "6.0"
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundlePackageType: APPL
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+        UIApplicationSupportsIndirectInputEvents: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NSLocationWhenInUseUsageDescription: "QiblaFinder needs your location to determine the Qibla direction."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "QiblaFinder needs your location to determine the Qibla direction."
+
+  QiblaFinderTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - QiblaFinderTests
+    dependencies:
+      - target: QiblaFinder
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.qiblafinder.tests
+      SWIFT_VERSION: "5.9"
+      TARGETED_DEVICE_FAMILY: "1,2"
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      GENERATE_INFOPLIST_FILE: YES
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: YES
