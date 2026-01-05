@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Islam Pro</title>
+    <meta name="description" content="Islam Pro Privacy Policy - Learn how we protect your data and respect your privacy.">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -11,191 +12,634 @@
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
             color: white;
-            line-height: 1.6;
+            line-height: 1.7;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 40px 24px;
         }
         header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 48px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         .logo {
-            font-size: 40px;
+            font-size: 48px;
             margin-bottom: 16px;
         }
         h1 {
-            font-size: 32px;
-            margin-bottom: 8px;
+            font-size: 36px;
+            margin-bottom: 12px;
+            font-weight: 700;
         }
-        .last-updated {
-            color: rgba(255,255,255,0.6);
+        .version-info {
+            color: rgba(255,255,255,0.5);
             font-size: 14px;
+            margin-top: 8px;
         }
-        h2 {
-            font-size: 22px;
-            margin: 32px 0 16px;
+        .toc {
+            background: rgba(0, 184, 148, 0.08);
+            border-left: 4px solid #00b894;
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 0 12px 12px 0;
+        }
+        .toc h2 {
+            color: #00b894;
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        .toc ol {
+            margin-left: 20px;
+        }
+        .toc li {
+            margin-bottom: 8px;
+            color: rgba(255,255,255,0.85);
+        }
+        .toc a {
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+        }
+        .toc a:hover {
             color: #00b894;
         }
+        h2 {
+            font-size: 26px;
+            margin: 48px 0 20px;
+            color: #00b894;
+            font-weight: 600;
+            padding-top: 24px;
+        }
         h3 {
-            font-size: 18px;
+            font-size: 20px;
+            margin: 28px 0 16px;
+            color: rgba(255,255,255,0.95);
+            font-weight: 600;
+        }
+        h4 {
+            font-size: 17px;
             margin: 20px 0 12px;
             color: rgba(255,255,255,0.9);
+            font-weight: 600;
         }
         p, li {
-            color: rgba(255,255,255,0.85);
-            margin-bottom: 12px;
+            color: rgba(255,255,255,0.82);
+            margin-bottom: 14px;
+            font-size: 16px;
         }
-        ul {
-            margin-left: 24px;
-            margin-bottom: 16px;
+        ul, ol {
+            margin: 16px 0 16px 28px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        strong {
+            color: rgba(255,255,255,0.95);
+            font-weight: 600;
         }
         a {
             color: #00b894;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        a:hover {
+            border-bottom-color: #00b894;
+        }
+        .highlight-box {
+            background: rgba(0, 184, 148, 0.12);
+            border-left: 4px solid #00b894;
+            padding: 20px 24px;
+            margin: 24px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .highlight-box p {
+            color: rgba(255,255,255,0.9);
+        }
+        .info-box {
+            background: rgba(52, 152, 219, 0.12);
+            border-left: 4px solid #3498db;
+            padding: 18px 22px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning-box {
+            background: rgba(241, 196, 15, 0.12);
+            border-left: 4px solid #f1c40f;
+            padding: 18px 22px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .data-table {
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .data-row {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding: 12px 0;
+        }
+        .data-row:last-child {
+            border-bottom: none;
+        }
+        .data-label {
+            color: #00b894;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .data-desc {
+            color: rgba(255,255,255,0.75);
+            font-size: 15px;
         }
         .back-link {
             display: inline-block;
-            margin-top: 40px;
+            margin-top: 60px;
+            padding: 12px 24px;
+            background: rgba(0, 184, 148, 0.15);
             color: #00b894;
             text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.2s;
         }
         .back-link:hover {
-            text-decoration: underline;
+            background: rgba(0, 184, 148, 0.25);
+            border-bottom-color: transparent;
         }
-        .highlight-box {
-            background: rgba(0, 184, 148, 0.1);
-            border-left: 4px solid #00b894;
-            padding: 16px 20px;
-            margin: 20px 0;
-            border-radius: 0 8px 8px 0;
+        .section-divider {
+            height: 1px;
+            background: rgba(255,255,255,0.1);
+            margin: 48px 0;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 24px 16px; }
+            h1 { font-size: 28px; }
+            h2 { font-size: 22px; }
+            h3 { font-size: 18px; }
+            p, li { font-size: 15px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo">&#128274;</div>
+            <div class="logo">🔒</div>
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: December 22, 2025</p>
+            <p class="version-info">
+                <strong>Effective Date:</strong> January 5, 2026<br>
+                <strong>Last Updated:</strong> January 5, 2026<br>
+                <strong>Version:</strong> 2.0
+            </p>
         </header>
 
         <div class="highlight-box">
-            <p><strong>Политика конфиденциальности — Islam Pro</strong><br>Ниже перечислены типы данных, которые мы собираем и как мы их используем. Если у вас есть вопросы, напишите: <a href="mailto:privacy@islampro.life">privacy@islampro.life</a>.</p>
+            <p><strong>Your Privacy Matters</strong></p>
+            <p>Islam Pro ("we," "our," or "the App") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.</p>
+            <p>Questions? Contact us at <a href="mailto:privacy@islampro.life">privacy@islampro.life</a></p>
         </div>
 
-        <h2>Собираемые данные (Data Collection)</h2>
+        <div class="toc">
+            <h2>Table of Contents</h2>
+            <ol>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#information-we-collect">Information We Collect</a></li>
+                <li><a href="#how-we-use">How We Use Your Information</a></li>
+                <li><a href="#how-we-share">How We Share Your Information</a></li>
+                <li><a href="#data-security">Data Security</a></li>
+                <li><a href="#data-retention">Data Retention</a></li>
+                <li><a href="#your-rights">Your Rights & Choices</a></li>
+                <li><a href="#children">Children's Privacy</a></li>
+                <li><a href="#international">International Data Transfers</a></li>
+                <li><a href="#third-party">Third-Party Services</a></li>
+                <li><a href="#changes">Changes to This Policy</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ol>
+        </div>
 
-        <h3>1. User Profile Data</h3>
-        <p>Мы сохраняем профиль пользователя при регистрации/входе:</p>
+        <h2 id="introduction">1. Introduction</h2>
+        <p>Islam Pro is an Islamic mobile application available on iOS that provides Qibla direction, accurate prayer times, full Quran with audio, Duas, Hadith, Tasbih counter, and other Islamic resources.</p>
+        
+        <p>This Privacy Policy applies to all users of the Islam Pro mobile application and website (islampro.life). By using our App, you agree to the collection and use of information in accordance with this policy.</p>
+
+        <div class="info-box">
+            <p><strong>Key Privacy Principles:</strong></p>
+            <ul>
+                <li>✓ We only collect data necessary to provide and improve our services</li>
+                <li>✓ We never sell your personal information to third parties</li>
+                <li>✓ You control your data - you can access, export, or delete it anytime</li>
+                <li>✓ We use industry-standard encryption to protect your data</li>
+            </ul>
+        </div>
+
+        <h2 id="information-we-collect">2. Information We Collect</h2>
+        
+        <h3>2.1 Account Information</h3>
+        <p>When you create an account or sign in, we collect:</p>
+        <div class="data-table">
+            <div class="data-row">
+                <div class="data-label">Email Address</div>
+                <div class="data-desc">Required for account creation and authentication. Used to send important notifications and account recovery.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Display Name</div>
+                <div class="data-desc">Optional. Used to personalize your experience within the app.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Profile Picture</div>
+                <div class="data-desc">Optional. URL to your avatar image if you choose to add one.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Authentication Provider</div>
+                <div class="data-desc">Records whether you signed in with Apple, Google, or email/password.</div>
+            </div>
+        </div>
+
+        <h3>2.2 Location Data</h3>
+        <p><strong>Qibla Direction & Prayer Times:</strong> The app requires your device's location to:</p>
         <ul>
-            <li><strong>email</strong> — Email адрес (При регистрации)</li>
-            <li><strong>display_name</strong> — Имя пользователя (Не обязательно)</li>
-            <li><strong>avatar_url</strong> — URL аватара (Не обязательно)</li>
-            <li><strong>provider</strong> — Способ входа (Apple/Google/Email) (Обязательно)</li>
-            <li><strong>country</strong> — Страна (Определяется автоматически)</li>
-            <li><strong>language</strong> — Язык приложения (Определяется автоматически)</li>
+            <li>Calculate accurate Qibla (direction to Mecca)</li>
+            <li>Determine precise prayer times for your location</li>
+            <li>Calculate distance to Mecca</li>
+        </ul>
+        
+        <div class="info-box">
+            <p><strong>Important:</strong> Location data is <strong>processed locally on your device</strong> and is <strong>never stored on our servers</strong>. We only store your country and timezone to improve accuracy.</p>
+        </div>
+
+        <h3>2.3 Device Information</h3>
+        <p>We automatically collect technical information to ensure compatibility and diagnose issues:</p>
+        <ul>
+            <li><strong>Device Model:</strong> e.g., iPhone 15, iPad Pro (for compatibility testing)</li>
+            <li><strong>Operating System:</strong> iOS version (e.g., iOS 18.0)</li>
+            <li><strong>App Version:</strong> Version of Islam Pro you're using (e.g., 2.0)</li>
+            <li><strong>Device Language:</strong> Your preferred language setting</li>
+            <li><strong>Timezone:</strong> For accurate prayer time calculations</li>
         </ul>
 
-        <h3>2. Device Information</h3>
+        <h3>2.4 Usage & Analytics Data</h3>
+        <p>We collect aggregated, anonymized usage data to improve the app experience:</p>
+        
+        <h4>App Interactions:</h4>
         <ul>
-            <li><strong>device_model</strong> — Модель устройства (например: iPhone15,2)</li>
-            <li><strong>os_version</strong> — Версия iOS (например: 18.0)</li>
-            <li><strong>app_version</strong> — Версия приложения (например: 2.0)</li>
+            <li>App opens, closes, and session duration</li>
+            <li>Screens viewed and navigation patterns</li>
+            <li>Feature usage (Compass, Prayer Times, Quran, Tasbih, etc.)</li>
+            <li>Settings changes (theme, language, notification preferences)</li>
+            <li>Button clicks and user actions</li>
         </ul>
 
-        <h3>3. Analytics Events</h3>
-        <p>Мы собираем агрегированные события аналитики для улучшения приложения:</p>
+        <h4>Religious Content Tracking:</h4>
         <ul>
-            <li><strong>App Lifecycle</strong>: app_open, app_close, app_background, app_foreground</li>
-            <li><strong>Navigation</strong>: screen_view (название экрана)</li>
-            <li><strong>Compass</strong>: compass_viewed, qibla_aligned</li>
-            <li><strong>Prayer</strong>: prayer_times_viewed, prayer_completed</li>
-            <li><strong>Quran</strong>: quran_opened, surah_viewed, audio_play_started, bookmark_added</li>
-            <li><strong>Tasbih</strong>: tasbih_session_started, tasbih_session_completed</li>
-            <li><strong>Subscription</strong>: paywall_viewed, purchase_started, purchase_completed, purchase_failed</li>
-            <li><strong>Ads</strong>: ad_impression, ad_reward_earned, ad_clicked</li>
-            <li><strong>Auth</strong>: sign_in_started, sign_in_completed, sign_out</li>
-            <li><strong>Referral</strong>: referral_shared, referral_completed, referral_reward_earned</li>
-            <li><strong>Settings</strong>: setting_changed, theme_changed, language_changed</li>
-            <li><strong>Engagement</strong>: notification_tapped, review_requested, feedback_submitted</li>
+            <li><strong>Prayer Tracking:</strong> Which prayers you mark as completed (stored locally and synced to your account)</li>
+            <li><strong>Quran Progress:</strong> Last surah/ayah read, reading time, bookmarks with optional notes</li>
+            <li><strong>Tasbih Counters:</strong> Dhikr phrases and counts</li>
+            <li><strong>Duas & Hadith:</strong> Which content you view or bookmark</li>
         </ul>
 
-        <h3>4. Session Data</h3>
+        <h4>Subscription & Purchase Events:</h4>
         <ul>
-            <li><strong>session_id</strong> — Уникальный ID сессии</li>
-            <li><strong>started_at</strong> — Время начала</li>
-            <li><strong>ended_at</strong> — Время окончания</li>
-            <li><strong>duration_seconds</strong> — Длительность</li>
-            <li><strong>screens_viewed</strong> — Количество экранов</li>
-            <li><strong>actions_count</strong> — Количество действий</li>
+            <li>Paywall views, purchase attempts, successes, and failures</li>
+            <li>Subscription status (active, expired, canceled)</li>
+            <li>Product IDs and pricing (handled securely through RevenueCat)</li>
         </ul>
 
-        <h3>5. User Preferences (Synced)</h3>
+        <h3>2.5 User-Generated Content</h3>
         <ul>
-            <li>calculation_method, madhab, theme, notifications_enabled, adhan_enabled, quran_reciter, quran_translation</li>
+            <li><strong>Quran Bookmarks:</strong> Notes you add to bookmarked verses</li>
+            <li><strong>Feedback:</strong> Bug reports or feature requests you submit</li>
+            <li><strong>App Preferences:</strong> Calculation method, madhab, theme, notification settings, selected Quran reciter/translation</li>
         </ul>
 
-        <h3>6. Prayer Tracking</h3>
+        <h3>2.6 Data We Do NOT Collect</h3>
+        <div class="data-table">
+            <div class="data-row">
+                <div class="data-label">❌ Precise GPS Coordinates</div>
+                <div class="data-desc">We calculate Qibla direction locally; coordinates are never stored on servers.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">❌ Contacts</div>
+                <div class="data-desc">We never access your contact list.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">❌ Photos or Media</div>
+                <div class="data-desc">We do not access your photo library or camera (except optional profile picture upload).</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">❌ Health Data</div>
+                <div class="data-desc">No HealthKit or health-related data is collected.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">❌ Financial Information</div>
+                <div class="data-desc">Payment processing is handled securely by Apple and RevenueCat; we never see your credit card details.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">❌ Browsing History</div>
+                <div class="data-desc">We do not track your activity outside the Islam Pro app.</div>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <h2 id="how-we-use">3. How We Use Your Information</h2>
+        
+        <p>We use the collected information for the following purposes:</p>
+
+        <h3>3.1 Provide Core Features</h3>
         <ul>
-            <li>date — Дата</li>
-            <li>fajr/dhuhr/asr/maghrib/isha — Отметки о выполнении молитв</li>
+            <li><strong>Authentication:</strong> Create and manage your account</li>
+            <li><strong>Qibla & Prayer Times:</strong> Calculate accurate direction and times based on location</li>
+            <li><strong>Sync Across Devices:</strong> Keep your settings, progress, and bookmarks synchronized</li>
+            <li><strong>Notifications:</strong> Send prayer time reminders and adhan alerts</li>
         </ul>
 
-        <h3>7. Quran Progress</h3>
+        <h3>3.2 Improve & Personalize</h3>
         <ul>
-            <li>last_surah, last_ayah, total_ayahs_read, total_reading_time_seconds, bookmarks (сура, аят, заметка)</li>
+            <li>Analyze usage patterns to improve features and fix bugs</li>
+            <li>Personalize content recommendations (suggested Duas, Surahs)</li>
+            <li>Optimize app performance and loading times</li>
+            <li>Test new features with user feedback</li>
         </ul>
 
-        <h3>8. Tasbih Counters</h3>
+        <h3>3.3 Communication</h3>
         <ul>
-            <li>phrase — Фраза зикра</li>
-            <li>count — Текущий счёт</li>
-            <li>total_count — Общий счёт за всё время</li>
+            <li>Send important service announcements (e.g., maintenance, new features)</li>
+            <li>Respond to your support requests and feedback</li>
+            <li>Send optional newsletters (with your consent - you can opt out anytime)</li>
         </ul>
 
-        <h3>9. Subscription Events (from RevenueCat)</h3>
+        <h3>3.4 Legal Compliance & Safety</h3>
         <ul>
-            <li>event_type, product_id, price, currency, transaction_id</li>
+            <li>Comply with legal obligations and law enforcement requests</li>
+            <li>Prevent fraud, abuse, and security threats</li>
+            <li>Enforce our Terms of Service</li>
         </ul>
 
-        <h3>10. Feedback</h3>
+        <h3>3.5 Legal Basis for Processing (GDPR)</h3>
+        <p>For users in the European Economic Area (EEA), UK, and Switzerland, we process your data based on:</p>
         <ul>
-            <li>type (feature_request / bug_report), message (текст сообщения)</li>
+            <li><strong>Contract Performance:</strong> Processing necessary to provide the app services you requested</li>
+            <li><strong>Consent:</strong> Where you have given explicit consent (e.g., optional features, newsletters)</li>
+            <li><strong>Legitimate Interest:</strong> Analytics to improve the app, security, and fraud prevention</li>
+            <li><strong>Legal Obligation:</strong> Compliance with applicable laws</li>
         </ul>
 
-        <h2>Third-Party Services</h2>
-        <p>Мы используем сторонние сервисы для работы приложения:</p>
+        <div class="section-divider"></div>
+
+        <h2 id="how-we-share">4. How We Share Your Information</h2>
+        
+        <p><strong>We do not sell your personal information to third parties.</strong></p>
+
+        <p>We only share your data in the following limited circumstances:</p>
+
+        <h3>4.1 Service Providers</h3>
+        <p>We use trusted third-party services to operate the app:</p>
+
+        <div class="data-table">
+            <div class="data-row">
+                <div class="data-label">Supabase (Backend & Database)</div>
+                <div class="data-desc">Stores account data, preferences, and synced content. <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a></div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">RevenueCat (Subscription Management)</div>
+                <div class="data-desc">Handles in-app purchases and subscription status. <a href="https://www.revenuecat.com/privacy" target="_blank">Privacy Policy</a></div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Apple Sign In</div>
+                <div class="data-desc">Authentication service (email, name). <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Google Sign In</div>
+                <div class="data-desc">Authentication service (email, name, avatar). <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></div>
+            </div>
+        </div>
+
+        <p>These providers are contractually obligated to protect your data and only use it to provide services to us.</p>
+
+        <h3>4.2 Legal Requirements</h3>
+        <p>We may disclose your information if required by law or in response to:</p>
         <ul>
-            <li><strong>Supabase</strong> — backend, auth, database (сохраняет перечисленные данные)</li>
-            <li><strong>RevenueCat</strong> — управление подписками (данные о покупках)</li>
-            <li><strong>Apple Sign In</strong> — email, name (авторизация)</li>
-            <li><strong>Google Sign In</strong> — email, name, avatar (авторизация)</li>
-            <li><strong>AdMob (если есть)</strong> — идентификатор устройства, взаимодействия с рекламой (реклама)</li>
+            <li>Valid legal process (court orders, subpoenas)</li>
+            <li>Law enforcement or government requests</li>
+            <li>Protection of our rights, property, or safety</li>
+            <li>Prevention of fraud or illegal activity</li>
         </ul>
 
-        <h2>Data NOT Collected</h2>
+        <h3>4.3 Business Transfers</h3>
+        <p>If Islam Pro is involved in a merger, acquisition, or sale of assets, your data may be transferred. We will notify you via email and/or prominent notice in the app before your data is transferred and becomes subject to a different privacy policy.</p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="data-security">5. Data Security</h2>
+        
+        <p>We implement industry-standard security measures to protect your data:</p>
+
+        <h3>Security Measures:</h3>
         <ul>
-            <li>❌ Precise GPS location (только направление Qibla — не сохраняем точную координату)</li>
-            <li>❌ Contacts</li>
-            <li>❌ Photos/Media</li>
-            <li>❌ Health data</li>
-            <li>❌ Financial data (кроме покупок в приложении)</li>
-            <li>❌ Browsing history</li>
+            <li><strong>Encryption in Transit:</strong> All data transmitted between your device and our servers uses TLS/SSL encryption (HTTPS)</li>
+            <li><strong>Encryption at Rest:</strong> Sensitive data is encrypted in our databases</li>
+            <li><strong>Access Controls:</strong> Strict authentication and authorization for backend access</li>
+            <li><strong>Regular Security Audits:</strong> Periodic review of our security practices</li>
+            <li><strong>Secure Authentication:</strong> OAuth 2.0 for Apple/Google Sign In, bcrypt password hashing</li>
         </ul>
 
-        <h2>Где хранятся данные и безопасность</h2>
-        <p>Данные хранятся в Supabase и на устройствах пользователей. Мы применяем стандартные меры безопасности, включая шифрование на стороне сервера и контролируемый доступ.</p>
+        <div class="warning-box">
+            <p><strong>Important:</strong> No method of transmission or storage is 100% secure. While we strive to protect your data, we cannot guarantee absolute security. Please use a strong, unique password for your account.</p>
+        </div>
 
-        <h2>Контакты</h2>
-        <p>Для вопросов по конфиденциальности:</p>
+        <div class="section-divider"></div>
+
+        <h2 id="data-retention">6. Data Retention</h2>
+        
+        <p>We retain your personal data only as long as necessary for the purposes outlined in this policy:</p>
+
+        <div class="data-table">
+            <div class="data-row">
+                <div class="data-label">Account Data</div>
+                <div class="data-desc">Retained until you delete your account. After deletion, data is removed within 30 days (except where legal retention is required).</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Usage Analytics</div>
+                <div class="data-desc">Aggregated data retained for up to 24 months. Individual user data anonymized after 90 days.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Prayer & Quran Progress</div>
+                <div class="data-desc">Retained while your account is active. Deleted when you delete your account.</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Subscription Records</div>
+                <div class="data-desc">Retained for 7 years for tax and legal compliance (anonymized after account deletion).</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Support Communications</div>
+                <div class="data-desc">Retained for 3 years for customer service improvement and legal purposes.</div>
+            </div>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <h2 id="your-rights">7. Your Rights & Choices</h2>
+        
+        <p>You have the following rights regarding your personal data:</p>
+
+        <h3>7.1 Access & Portability</h3>
         <ul>
-            <li>Email: <a href="mailto:privacy@islampro.life">privacy@islampro.life</a></li>
-            <li>Поддержка: <a href="mailto:support@islampro.life">support@islampro.life</a></li>
+            <li><strong>Access:</strong> Request a copy of the personal data we hold about you</li>
+            <li><strong>Data Export:</strong> Download your data in a portable format (JSON/CSV)</li>
+            <li><strong>How:</strong> Email <a href="mailto:privacy@islampro.life">privacy@islampro.life</a> with subject "Data Access Request"</li>
         </ul>
 
-        <a href="/" class="back-link">&larr; Back to Home</a>
+        <h3>7.2 Correction & Updates</h3>
+        <ul>
+            <li>Update your profile information in Settings > Account</li>
+            <li>Contact us to correct inaccurate data: <a href="mailto:support@islampro.life">support@islampro.life</a></li>
+        </ul>
+
+        <h3>7.3 Deletion (Right to be Forgotten)</h3>
+        <ul>
+            <li><strong>Delete Account:</strong> Settings > Account > Delete Account</li>
+            <li><strong>What Happens:</strong> All personal data is permanently deleted within 30 days</li>
+            <li><strong>Exceptions:</strong> We may retain anonymized analytics and legally required records</li>
+        </ul>
+
+        <h3>7.4 Opt-Out & Preferences</h3>
+        <ul>
+            <li><strong>Push Notifications:</strong> Disable in iOS Settings > Islam Pro > Notifications</li>
+            <li><strong>Email Newsletters:</strong> Unsubscribe link in any email or Settings > Notifications</li>
+            <li><strong>Analytics:</strong> While we don't offer opt-out (it's essential for app improvement), all data is anonymized</li>
+        </ul>
+
+        <h3>7.5 Object to Processing</h3>
+        <p>You can object to certain data processing (e.g., direct marketing). Contact <a href="mailto:privacy@islampro.life">privacy@islampro.life</a> to exercise this right.</p>
+
+        <h3>7.6 Restrict Processing</h3>
+        <p>Request temporary restriction of processing in certain circumstances (e.g., while we verify data accuracy).</p>
+
+        <h3>7.7 Withdraw Consent</h3>
+        <p>Where processing is based on consent, you can withdraw it anytime. This won't affect processing that occurred before withdrawal.</p>
+
+        <div class="info-box">
+            <p><strong>California Residents (CCPA):</strong> You have additional rights under the California Consumer Privacy Act. See our <a href="#ccpa">CCPA section below</a> for details.</p>
+        </div>
+
+        <h3 id="ccpa">7.8 California Privacy Rights (CCPA/CPRA)</h3>
+        <p>If you're a California resident, you have these additional rights:</p>
+        <ul>
+            <li><strong>Know:</strong> What personal information we collect, use, disclose, and sell</li>
+            <li><strong>Delete:</strong> Request deletion of your personal information</li>
+            <li><strong>Opt-Out:</strong> Opt out of "sale" of personal information (Note: We do not sell your data)</li>
+            <li><strong>Non-Discrimination:</strong> We will not discriminate against you for exercising your rights</li>
+        </ul>
+
+        <p><strong>To exercise CCPA rights:</strong> Email <a href="mailto:privacy@islampro.life">privacy@islampro.life</a> with subject "CCPA Request"</p>
+
+        <p><strong>Response Time:</strong> We respond to verified requests within 45 days.</p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="children">8. Children's Privacy</h2>
+        
+        <p><strong>Age Requirement:</strong> Islam Pro is rated 4+ and suitable for all ages. However, we comply with the Children's Online Privacy Protection Act (COPPA) and similar laws.</p>
+
+        <h3>For Users Under 13 (US) / 16 (EU):</h3>
+        <ul>
+            <li><strong>Parental Consent Required:</strong> We do not knowingly collect data from children without verifiable parental consent</li>
+            <li><strong>Limited Features:</strong> Users under 13/16 should use the app without creating an account (offline mode available)</li>
+            <li><strong>Discovery:</strong> If we learn we've collected data from a child without consent, we will delete it immediately</li>
+        </ul>
+
+        <p><strong>Parents:</strong> If you believe your child has provided us with personal information without consent, please contact <a href="mailto:privacy@islampro.life">privacy@islampro.life</a> immediately.</p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="international">9. International Data Transfers</h2>
+        
+        <p><strong>Where Your Data is Stored:</strong> Our servers are primarily located in the United States (via Supabase cloud infrastructure).</p>
+
+        <h3>For EU/EEA/UK Users:</h3>
+        <p>When you use Islam Pro, your data may be transferred to and processed in countries outside your location, including the United States. We ensure adequate protection through:</p>
+        <ul>
+            <li><strong>Standard Contractual Clauses (SCCs):</strong> EU-approved data transfer agreements with our service providers</li>
+            <li><strong>Adequacy Decisions:</strong> Transfers to countries deemed adequate by the European Commission</li>
+            <li><strong>Supabase Compliance:</strong> Our backend provider is GDPR-compliant and uses appropriate safeguards</li>
+        </ul>
+
+        <p>By using the app, you consent to the transfer of your data to these locations.</p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="third-party">10. Third-Party Services & Links</h2>
+        
+        <h3>10.1 Third-Party Privacy Policies</h3>
+        <p>Our app integrates with third-party services. Each has its own privacy policy:</p>
+        <ul>
+            <li><strong>Supabase:</strong> <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></li>
+            <li><strong>RevenueCat:</strong> <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></li>
+            <li><strong>Apple:</strong> <a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a></li>
+            <li><strong>Google:</strong> <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+        </ul>
+
+        <h3>10.2 External Links</h3>
+        <p>The app may contain links to external websites (e.g., Islamic resources, donation pages). We are not responsible for the privacy practices of these sites. Please review their privacy policies.</p>
+
+        <h3>10.3 Do Not Track (DNT)</h3>
+        <p>Our app does not respond to Do Not Track signals as there is no industry standard for DNT compliance in mobile apps. You can control tracking through iOS Settings > Privacy > Tracking.</p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="changes">11. Changes to This Privacy Policy</h2>
+        
+        <p>We may update this Privacy Policy periodically to reflect changes in our practices, technology, legal requirements, or business operations.</p>
+
+        <h3>How We Notify You:</h3>
+        <ul>
+            <li><strong>Material Changes:</strong> Email notification + in-app alert</li>
+            <li><strong>Minor Changes:</strong> Updated "Last Updated" date on this page</li>
+            <li><strong>Continued Use:</strong> Using the app after changes constitutes acceptance of the new policy</li>
+        </ul>
+
+        <p><strong>Review Regularly:</strong> We encourage you to review this policy periodically. You can find the latest version at <a href="https://islampro.life/privacy">islampro.life/privacy</a></p>
+
+        <div class="section-divider"></div>
+
+        <h2 id="contact">12. Contact Us</h2>
+        
+        <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+
+        <div class="data-table">
+            <div class="data-row">
+                <div class="data-label">Privacy Inquiries</div>
+                <div class="data-desc"><a href="mailto:privacy@islampro.life">privacy@islampro.life</a></div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">General Support</div>
+                <div class="data-desc"><a href="mailto:support@islampro.life">support@islampro.life</a></div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Data Protection Officer</div>
+                <div class="data-desc"><a href="mailto:dpo@islampro.life">dpo@islampro.life</a> (EU/GDPR requests)</div>
+            </div>
+            <div class="data-row">
+                <div class="data-label">Website</div>
+                <div class="data-desc"><a href="https://islampro.life">islampro.life</a></div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <p><strong>Response Time:</strong> We aim to respond to all privacy inquiries within 5 business days.</p>
+            <p><strong>Complaint to Supervisory Authority:</strong> If you're in the EU/EEA and believe we've violated GDPR, you have the right to lodge a complaint with your local data protection authority.</p>
+        </div>
+
+        <div class="section-divider"></div>
+
+        <div class="highlight-box">
+            <p><strong>Thank you for trusting Islam Pro with your data.</strong></p>
+            <p>We are committed to protecting your privacy while providing a meaningful Islamic experience. May Allah (SWT) accept your worship and grant you ease in your journey.</p>
+        </div>
+
+        <a href="/" class="back-link">← Back to Home</a>
     </div>
 </body>
 </html>
