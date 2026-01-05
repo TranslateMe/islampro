@@ -10,9 +10,8 @@
   # You can add environment variables here if needed for builds
   # EXAMPLE: API_BASE_URL = "https://api.example.com"
 
-[headers]
-  # Prevent sniffing and enforce modern security headers for static site
-  [[headers]]
+[#] Prevent sniffing and enforce modern security headers for static site
+[[headers]]
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
