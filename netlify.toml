@@ -1,0 +1,21 @@
+# Netlify configuration for Qibla-app
+
+[build]
+  # If you use a static site (no build step), Netlify will publish the folder below.
+  publish = "netlify-site"
+  # No build command needed for static HTML. If you use a static site generator, replace this.
+  command = ""
+
+[context.production.environment]
+  # You can add environment variables here if needed for builds
+  # EXAMPLE: API_BASE_URL = "https://api.example.com"
+
+[headers]
+  # Prevent sniffing and enforce modern security headers for static site
+  [[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    X-XSS-Protection = "1; mode=block"
