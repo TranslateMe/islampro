@@ -1,0 +1,30 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b894"/>
+      <stop offset="100%" style="stop-color:#00cec9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- App Icon -->
+  <rect x="100" y="165" width="200" height="200" rx="45" fill="url(#accent)"/>
+  <text x="200" y="295" font-size="100" text-anchor="middle" dominant-baseline="middle">&#128330;</text>
+
+  <!-- Text -->
+  <text x="350" y="240" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="72" font-weight="bold" fill="white">Islam Pro</text>
+  <text x="350" y="310" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="28" fill="rgba(255,255,255,0.7)">Qibla Finder • Prayer Times • Quran</text>
+
+  <!-- Features row -->
+  <text x="350" y="400" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="24" fill="rgba(255,255,255,0.6)">&#x2713; Accurate Compass   &#x2713; Full Quran with Audio   &#x2713; Duas &amp; Tasbih</text>
+
+  <!-- App Store badge area -->
+  <rect x="350" y="450" width="220" height="60" rx="12" fill="url(#accent)"/>
+  <text x="460" y="490" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="600" fill="white" text-anchor="middle">Download on App Store</text>
+</svg>

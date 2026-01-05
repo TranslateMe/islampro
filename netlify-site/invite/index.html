@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Islam Pro - Your Friend Invited You!</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Join Islam Pro - Your Friend Invited You!">
+    <meta name="description" content="Get Islam Pro - the complete Islamic companion app with Qibla finder, prayer times, Quran, and more. Your friend is sharing this with you!">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://islampro.life/invite/">
+    <meta property="og:title" content="Join Islam Pro - Your Friend Invited You!">
+    <meta property="og:description" content="Get Islam Pro - the complete Islamic companion app with Qibla finder, prayer times, Quran, and more. Your friend is sharing this with you!">
+    <meta property="og:image" content="https://islampro.life/og-invite.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Islam Pro">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://islampro.life/invite/">
+    <meta name="twitter:title" content="Join Islam Pro - Your Friend Invited You!">
+    <meta name="twitter:description" content="Get Islam Pro - the complete Islamic companion app with Qibla finder, prayer times, Quran, and more.">
+    <meta name="twitter:image" content="https://islampro.life/og-invite.png">
+
+    <!-- iOS Smart Banner -->
+    <meta name="apple-itunes-app" content="app-id=6754158872">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#1a1a2e">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 400px;
+        }
+        .invite-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f39c12 0%, #e74c3c 100%);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+            border-radius: 28px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            box-shadow: 0 10px 40px rgba(0, 184, 148, 0.3);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        p {
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        .features {
+            text-align: left;
+            margin: 24px 0;
+            padding: 20px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 0;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: rgba(0, 184, 148, 0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #00b894;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+            margin-top: 16px;
+        }
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0,184,148,0.4);
+        }
+        .note {
+            font-size: 12px;
+            color: rgba(255,255,255,0.5);
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="invite-badge">You've Been Invited!</div>
+        <div class="icon">&#128330;</div>
+        <h1>Islam Pro</h1>
+        <p>Your friend wants you to join them on the best Islamic app!</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">&#x1F9ED;</div>
+                <span>Accurate Qibla Direction</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#x23F0;</div>
+                <span>Prayer Times with Adhan</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#x1F4D6;</div>
+                <span>Full Quran with Audio</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#x1F64F;</div>
+                <span>Duas & Tasbih Counter</span>
+            </div>
+        </div>
+
+        <a href="https://apps.apple.com/app/id6754158872" class="download-btn">
+            Download Free on App Store
+        </a>
+
+        <p class="note">Open the app after installing to apply your friend's referral code automatically.</p>
+    </div>
+
+    <script>
+        // Extract referral code from URL if present
+        const path = window.location.pathname;
+        const match = path.match(/\/invite\/([A-Z0-9]+)/i);
+        if (match) {
+            // Store referral code for App Clip / deep link
+            localStorage.setItem('referral_code', match[1]);
+        }
+    </script>
+</body>
+</html>

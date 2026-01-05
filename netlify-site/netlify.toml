@@ -1,0 +1,42 @@
+# Netlify configuration for Islam Pro
+
+[build]
+  publish = "."
+
+# Headers for Apple App Site Association file
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "max-age=86400"
+
+# Headers for OG images (allow caching)
+[[headers]]
+  for = "/og-*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml"
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/og-*.png"
+  [headers.values]
+    Content-Type = "image/png"
+    Cache-Control = "public, max-age=604800"
+
+# Serve invite page for all invite links (OG tags will show in previews)
+# The invite page itself has the download button
+[[redirects]]
+  from = "/invite/*"
+  to = "/invite/index.html"
+  status = 200
+
+# Redirect terms and privacy without extension
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 200

@@ -1,0 +1,18 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": ["M4WYYJ978P.com.nikitag.qiblafind.app"],
+                "components": [
+                    {
+                        "/": "/invite/*",
+                        "comment": "Referral program invite links"
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": ["M4WYYJ978P.com.nikitag.qiblafind.app"]
+    }
+}
