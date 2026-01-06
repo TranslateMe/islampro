@@ -6,6 +6,10 @@
   # No build command needed for static HTML. If you use a static site generator, replace this.
   command = ""
 
+[functions]
+  # Directory containing Netlify Functions (serverless handlers)
+  directory = "netlify-site/functions"
+
 [context.production.environment]
   # You can add environment variables here if needed for builds
   # EXAMPLE: API_BASE_URL = "https://api.example.com"
